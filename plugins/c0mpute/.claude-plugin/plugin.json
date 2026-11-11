@@ -1,0 +1,10 @@
+{
+  "name": "c0mpute",
+  "version": "1.0.0",
+  "description": "Publish websites on the c0mpute network (three self-healing copies on everyday computers, served by every gateway), ask open models on the network, and make promo videos. Signs in with OAuth.",
+  "author": { "name": "Profullstack", "url": "https://profullstack.com" },
+  "homepage": "https://cloud.killer.pit.world/",
+  "repository": "https://github.com/profullstack/claude-plugins",
+  "license": "MIT",
+  "keywords": ["hosting", "p2p", "static-site", "deploy", "c0mpute", "mcp"]
+}

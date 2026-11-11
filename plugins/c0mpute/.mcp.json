@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "c0mpute": {
+      "type": "http",
+      "url": "https://c0mpute.com/api/mcp"
+    }
+  }
+}

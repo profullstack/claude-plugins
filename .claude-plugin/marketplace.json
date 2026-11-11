@@ -1,0 +1,23 @@
+{
+  "name": "profullstack",
+  "owner": { "name": "Profullstack", "url": "https://profullstack.com" },
+  "metadata": {
+    "description": "Profullstack plugins for Claude Code: c0mpute hosting and ThreatCrush security, each a remote MCP server with OAuth sign-in."
+  },
+  "plugins": [
+    {
+      "name": "c0mpute",
+      "source": "./plugins/c0mpute",
+      "description": "Publish websites on the c0mpute peer-to-peer network, ask open models on it, make promo videos.",
+      "category": "deployment",
+      "homepage": "https://cloud.killer.pit.world/"
+    },
+    {
+      "name": "threatcrush",
+      "source": "./plugins/threatcrush",
+      "description": "ThreatCrush security: scan findings and triage, incidents, IP/domain/hash reputation, fleet and webhooks.",
+      "category": "security",
+      "homepage": "https://threatcrush.com"
+    }
+  ]
+}

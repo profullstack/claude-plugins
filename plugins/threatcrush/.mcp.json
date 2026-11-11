@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "threatcrush": {
+      "type": "http",
+      "url": "https://threatcrush.com/api/mcp"
+    }
+  }
+}

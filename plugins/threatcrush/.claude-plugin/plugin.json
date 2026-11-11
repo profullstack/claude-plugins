@@ -1,0 +1,10 @@
+{
+  "name": "threatcrush",
+  "description": "ThreatCrush security for Claude Code: your org's scan/pentest/ai-scan findings and triage, incidents, IP/domain/file-hash reputation and webhooks, over the ThreatCrush MCP server with OAuth sign-in.",
+  "version": "0.1.0",
+  "author": { "name": "Profullstack", "url": "https://profullstack.com" },
+  "homepage": "https://threatcrush.com",
+  "repository": "https://github.com/profullstack/threatcrush",
+  "license": "MIT",
+  "keywords": ["security", "mcp", "vulnerabilities", "incident-response", "threat-intel"]
+}
