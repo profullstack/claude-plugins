@@ -1,0 +1,10 @@
+{
+  "name": "board-saas",
+  "version": "0.1.0",
+  "description": "Board as a Service for Claude Code: paste a decision brief and five AI advisors (CFO, Growth, Operator, Founder-Time, Contrarian) give verdicts, debate, and a chair writes the minutes. Hosted MCP server with OAuth sign-in.",
+  "author": { "name": "Profullstack", "url": "https://profullstack.com" },
+  "homepage": "https://board.saas.pit.world",
+  "repository": "https://github.com/profullstack/board-saas",
+  "license": "MIT",
+  "keywords": ["advisors", "decisions", "strategy", "founders", "board", "mcp"]
+}

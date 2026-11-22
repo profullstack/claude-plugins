@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "r4ck": {
+      "type": "http",
+      "url": "https://r4ck.dev/api/mcp"
+    }
+  }
+}
