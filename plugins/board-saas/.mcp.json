@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "board-saas": {
+      "type": "http",
+      "url": "https://board.saas.pit.world/mcp"
+    }
+  }
+}

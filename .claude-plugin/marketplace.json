@@ -1,16 +1,19 @@
 {
   "name": "profullstack",
-  "owner": { "name": "Profullstack", "url": "https://profullstack.com" },
+  "owner": {
+    "name": "Profullstack",
+    "url": "https://profullstack.com"
+  },
   "metadata": {
-    "description": "Profullstack plugins for Claude Code: c0mpute hosting and ThreatCrush security, each a remote MCP server with OAuth sign-in."
+    "description": "Profullstack plugins for Claude Code: c0mpute (hosting, chat on open models), ThreatCrush security, r4ck server search, Board as a Service and the boardroom advisors. Remote MCP servers, OAuth sign-in where an account is needed."
   },
   "plugins": [
     {
       "name": "c0mpute",
       "source": "./plugins/c0mpute",
-      "description": "Publish websites on the c0mpute peer-to-peer network, ask open models on it, make promo videos.",
+      "description": "Publish websites on the c0mpute peer-to-peer network, chat with open models on it, make promo videos.",
       "category": "deployment",
-      "homepage": "https://cloud.killer.pit.world/"
+      "homepage": "https://c0mpute.com"
     },
     {
       "name": "threatcrush",
@@ -18,6 +21,30 @@
       "description": "ThreatCrush security: scan findings and triage, incidents, IP/domain/hash reputation, fleet and webhooks.",
       "category": "security",
       "homepage": "https://threatcrush.com"
+    },
+    {
+      "name": "r4ck",
+      "source": "./plugins/r4ck",
+      "description": "Search every VPS, cloud, bare metal, GPU and PaaS offer for sale by spec, price and place. No key needed.",
+      "category": "development",
+      "homepage": "https://r4ck.dev"
+    },
+    {
+      "name": "board-saas",
+      "source": "./plugins/board-saas",
+      "description": "Hosted AI board meeting on a decision: five advisors give verdicts, debate, and a chair writes the minutes.",
+      "category": "productivity",
+      "homepage": "https://board.saas.pit.world"
+    },
+    {
+      "name": "boardroom",
+      "source": {
+        "source": "github",
+        "repo": "profullstack/boardroom"
+      },
+      "description": "Five expert advisors and a chair run locally in Claude Code; /boardroom:meet runs the meeting.",
+      "category": "productivity",
+      "homepage": "https://github.com/profullstack/boardroom"
     }
   ]
 }
