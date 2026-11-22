@@ -21,7 +21,15 @@ works in Claude Code, claude.ai, the Claude apps and ChatGPT.
 /plugin install board-saas@profullstack
 /plugin install cheapestwayz@profullstack
 /plugin install boardroom@profullstack
+/plugin install agentic-advisor-finance@profullstack
 ```
+
+**agentic-advisor-finance** is not an MCP server either: it adds `/agentic-advisor-finance:analyze`,
+`:cashflow`, `:runway`, `:pnl`, `:spend`, `:forecast` and `:board` commands that read whatever finance
+MCP servers you have connected (Mercury, CoinPay, QuickBooks) or a pasted CSV, validate the numbers and
+end with "Analysis, not financial, tax or legal advice." The same commands run on open models in
+[c0mpute chat](https://c0mpute.com/advisor/finance) and as an npm CLI + MCP server
+([profullstack/agentic-advisor-finance](https://github.com/profullstack/agentic-advisor-finance)).
 
 **boardroom** is not an MCP server: it is a set of agents and a
 `/boardroom:meet` command that run the five advisors and the chair locally in
