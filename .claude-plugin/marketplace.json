@@ -5,7 +5,7 @@
     "url": "https://profullstack.com"
   },
   "metadata": {
-    "description": "Profullstack plugins for Claude Code: c0mpute (hosting, chat on open models), ThreatCrush security, r4ck server search, Board as a Service, the boardroom advisors and CheapestWayz. Remote MCP servers, OAuth sign-in where an account is needed."
+    "description": "Profullstack plugins for Claude Code: c0mpute (hosting, chat on open models), ThreatCrush security, r4ck server search, Board as a Service, the boardroom advisors, CheapestWayz and the Agentic Advisor: Finance commands. Remote MCP servers, OAuth sign-in where an account is needed."
   },
   "plugins": [
     {
@@ -52,6 +52,16 @@
       "description": "Five expert advisors and a chair run locally in Claude Code; /boardroom:meet runs the meeting.",
       "category": "productivity",
       "homepage": "https://github.com/profullstack/boardroom"
+    },
+    {
+      "name": "agentic-advisor-finance",
+      "source": {
+        "source": "github",
+        "repo": "profullstack/agentic-advisor-finance"
+      },
+      "description": "Agentic Advisor: Finance: /analyze, /cashflow, /runway, /pnl, /spend, /forecast and /board slash commands over your connected finance tools (Mercury, CoinPay, QuickBooks) or a CSV, with validated numbers.",
+      "category": "productivity",
+      "homepage": "https://c0mpute.com/advisor/finance"
     }
   ]
 }
