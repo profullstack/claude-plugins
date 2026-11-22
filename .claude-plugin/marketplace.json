@@ -5,7 +5,7 @@
     "url": "https://profullstack.com"
   },
   "metadata": {
-    "description": "Profullstack plugins for Claude Code: c0mpute (hosting, chat on open models), ThreatCrush security, r4ck server search, Board as a Service and the boardroom advisors. Remote MCP servers, OAuth sign-in where an account is needed."
+    "description": "Profullstack plugins for Claude Code: c0mpute (hosting, chat on open models), ThreatCrush security, r4ck server search, Board as a Service, the boardroom advisors and CheapestWayz. Remote MCP servers, OAuth sign-in where an account is needed."
   },
   "plugins": [
     {
@@ -35,6 +35,13 @@
       "description": "Hosted AI board meeting on a decision: five advisors give verdicts, debate, and a chair writes the minutes.",
       "category": "productivity",
       "homepage": "https://board.saas.pit.world"
+    },
+    {
+      "name": "cheapestwayz",
+      "source": "./plugins/cheapestwayz",
+      "description": "Find the cheapest way to get something done: priced DIY, online and local methods ranked by cost, local quotes, and referral links that earn.",
+      "category": "productivity",
+      "homepage": "https://cheapestwayz.com"
     },
     {
       "name": "boardroom",
