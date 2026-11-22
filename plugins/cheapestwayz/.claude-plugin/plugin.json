@@ -1,0 +1,9 @@
+{
+  "name": "cheapestwayz",
+  "version": "0.1.0",
+  "description": "CheapestWayz for Claude Code: find the cheapest way to get something done (DIY, online or a local business) with priced, ranked methods, request quotes from local businesses, and share referral links that earn a commission. Hosted MCP server; reading needs no account, OAuth sign-in (email link or CoinPay) for the rest.",
+  "author": { "name": "Profullstack", "url": "https://profullstack.com" },
+  "homepage": "https://cheapestwayz.com",
+  "license": "MIT",
+  "keywords": ["prices", "cheapest", "diy", "local-business", "quotes", "referrals", "mcp"]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cheapestwayz": {
+      "type": "http",
+      "url": "https://cheapestwayz.com/mcp"
+    }
+  }
+}
